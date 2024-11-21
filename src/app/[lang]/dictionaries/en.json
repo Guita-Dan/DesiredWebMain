@@ -1,0 +1,80 @@
+{
+    "nav": {
+        "services": "Services",
+        "projects": "Projects",
+        "team": "Team",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Crafting Digital",
+        "titleHighlight": "Experiences",
+        "description": "We build stunning websites and powerful web applications that drive your business forward.",
+        "cta": "Start Your Project"
+    },
+    "services": {
+        "title": "Our Services",
+        "webDesign": {
+            "title": "Web Design",
+            "description": "Create stunning, responsive websites that captivate your audience and drive engagement."
+        },
+        "ecommerce": {
+            "title": "E-commerce",
+            "description": "Build powerful online stores with seamless checkout processes and robust inventory management."
+        },
+        "mobileApps": {
+            "title": "Mobile Apps",
+            "description": "Develop cross-platform mobile applications that provide a native experience on any device."
+        },
+        "webApplications": {
+            "title": "Web Applications",
+            "description": "Create custom web applications tailored to your specific business needs and workflows."
+        }
+    },
+    "projects": {
+        "title": "Our Projects",
+        "ecommercePlatform": {
+            "title": "E-commerce Platform",
+            "description": "A fully-featured online store with product management and secure payments."
+        },
+        "socialMediaDashboard": {
+            "title": "Social Media Dashboard",
+            "description": "A comprehensive dashboard for managing multiple social media accounts."
+        },
+        "fitnessTrackingApp": {
+            "title": "Fitness Tracking App",
+            "description": "A mobile app for tracking workouts and monitoring fitness progress."
+        }
+    },
+    "team": {
+        "title": "Our Team",
+        "johnDoe": {
+            "name": "John Doe",
+            "role": "Founder & CEO"
+        },
+        "janeSmith": {
+            "name": "Jane Smith",
+            "role": "Lead Developer"
+        },
+        "mikeJohnson": {
+            "name": "Mike Johnson",
+            "role": "UX Designer"
+        },
+        "sarahBrown": {
+            "name": "Sarah Brown",
+            "role": "Project Manager"
+        }
+    },
+    "contact": {
+        "title": "Contact Us",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send Message"
+    },
+    "footer": {
+        "description": "Crafting digital experiences that inspire and innovate.",
+        "quickLinks": "Quick Links",
+        "connect": "Connect With Us",
+        "rights": "All rights reserved."
+    }
+}

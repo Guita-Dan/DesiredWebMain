@@ -1,0 +1,80 @@
+{
+    "nav": {
+        "services": "Servicii",
+        "projects": "Proiecte",
+        "team": "Echipă",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Creăm Experiențe",
+        "titleHighlight": "Digitale",
+        "description": "Construim site-uri web uimitoare și aplicații web puternice care vă propulsează afacerea înainte.",
+        "cta": "Începeți Proiectul"
+    },
+    "services": {
+        "title": "Serviciile Noastre",
+        "webDesign": {
+            "title": "Design Web",
+            "description": "Creăm site-uri web responsive și uimitoare care captivează publicul și stimulează implicarea."
+        },
+        "ecommerce": {
+            "title": "E-commerce",
+            "description": "Construim magazine online puternice cu procese de plată fără probleme și gestionare robustă a inventarului."
+        },
+        "mobileApps": {
+            "title": "Aplicații Mobile",
+            "description": "Dezvoltăm aplicații mobile cross-platform care oferă o experiență nativă pe orice dispozitiv."
+        },
+        "webApplications": {
+            "title": "Aplicații Web",
+            "description": "Creăm aplicații web personalizate adaptate nevoilor și fluxurilor de lucru specifice afacerii dvs."
+        }
+    },
+    "projects": {
+        "title": "Proiectele Noastre",
+        "ecommercePlatform": {
+            "title": "Platformă E-commerce",
+            "description": "Un magazin online complet dotat cu gestionarea produselor și plăți securizate."
+        },
+        "socialMediaDashboard": {
+            "title": "Dashboard Social Media",
+            "description": "Un tablou de bord cuprinzător pentru gestionarea mai multor conturi de social media."
+        },
+        "fitnessTrackingApp": {
+            "title": "Aplicație de Fitness",
+            "description": "O aplicație mobilă pentru urmărirea antrenamentelor și monitorizarea progresului fitness."
+        }
+    },
+    "team": {
+        "title": "Echipa Noastră",
+        "johnDoe": {
+            "name": "John Doe",
+            "role": "Fondator & CEO"
+        },
+        "janeSmith": {
+            "name": "Jane Smith",
+            "role": "Dezvoltator Principal"
+        },
+        "mikeJohnson": {
+            "name": "Mike Johnson",
+            "role": "Designer UX"
+        },
+        "sarahBrown": {
+            "name": "Sarah Brown",
+            "role": "Manager de Proiect"
+        }
+    },
+    "contact": {
+        "title": "Contactați-ne",
+        "name": "Nume",
+        "email": "Email",
+        "message": "Mesaj",
+        "send": "Trimite Mesaj"
+    },
+    "footer": {
+        "description": "Creăm experiențe digitale care inspiră și inovează.",
+        "quickLinks": "Link-uri Rapide",
+        "connect": "Conectați-vă cu Noi",
+        "rights": "Toate drepturile rezervate."
+    }
+}
