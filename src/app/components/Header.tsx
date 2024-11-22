@@ -12,12 +12,12 @@ const Header = ({ t, language }: LangProps) => {
   const [isOpen, setIsOpen] = useState(false)
   const router = useRouter()
 
-  console.log("aici", t)
   const toggleLanguage = () => {
-    const newLocale = language === 'en' ? 'ro' : 'en'
-    const newPath = `/${newLocale}`
-    router.push(newPath)
-  }
+    const newLocale = language === 'ro' ? 'en' : 'ro';
+    const newPath = newLocale === 'en' ? '/' : `/${newLocale}`;
+    router.push(newPath);
+  };
+
 
   return (
     <header className="fixed w-full z-50 bg-gray-900 bg-opacity-90 backdrop-blur-sm">
@@ -35,7 +35,7 @@ const Header = ({ t, language }: LangProps) => {
             className="text-gray-300 hover:text-purple-500 transition duration-300 flex items-center"
           >
             <Globe className="w-5 h-5 mr-1" />
-            {language === 'en' ? 'ro' : 'en'}
+            {language === 'ro' ? 'en' : 'ro'}
           </button>
         </nav>
         <button

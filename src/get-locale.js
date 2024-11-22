@@ -18,5 +18,5 @@ export function getLocale(request) {
 
 
 
-    return match(languages, locales, defaultLocale);
+    return match(languages, locales, defaultLocale, );
 }
