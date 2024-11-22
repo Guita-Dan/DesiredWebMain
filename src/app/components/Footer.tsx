@@ -1,8 +1,9 @@
 "use client"
 import Link from 'next/link'
 import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa'
+import { LangProps } from './types'
 
-const Footer = ({t}) => {
+const Footer = ({ t }: LangProps) => {
 
   return (
     <footer className="bg-gray-800 py-8">

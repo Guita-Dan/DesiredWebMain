@@ -2,9 +2,10 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
+import { LangProps } from './types'
 
 
-const Contact = ({t}) => {
+const Contact = ({ t }: LangProps) => {
 
   const [formData, setFormData] = useState({
     name: '',

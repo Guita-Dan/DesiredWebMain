@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 'use server'
 import Hero from '../components/Hero'
 import Services from '../components/Services'
@@ -8,12 +10,14 @@ import { getDictionary } from './dictionaries'
 
 
 export default async function Home({
-  params: { lang },
-}: {
-  params: { lang: string };
-}) {
 
-  const dict = await getDictionary(lang)
+  params,
+}: Readonly<{
+  params: Promise<{ lang: string }>
+}>) {
+  const { lang } = await params;
+  const dict = await getDictionary(lang);
+
   return (
     <>
       <Hero t={dict} />

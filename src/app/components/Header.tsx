@@ -1,19 +1,20 @@
-'use client'
 
-import { useState, useEffect } from 'react'
+'use client'
+import { LangProps } from './types'
+import { useState } from 'react'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useRouter } from 'next/navigation'
 
 import { Globe } from 'lucide-react'
 
-const Header = ({ t }) => {
+const Header = ({ t, language }: LangProps) => {
   const [isOpen, setIsOpen] = useState(false)
   const router = useRouter()
 
   console.log("aici", t)
   const toggleLanguage = () => {
-    const newLocale = t === 'en' ? 'ro' : 'en'
+    const newLocale = language === 'en' ? 'ro' : 'en'
     const newPath = `/${newLocale}`
     router.push(newPath)
   }
