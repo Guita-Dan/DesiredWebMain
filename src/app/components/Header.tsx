@@ -35,7 +35,7 @@ const Header = ({ t, language }: LangProps) => {
             className="text-gray-300 hover:text-purple-500 transition duration-300 flex items-center"
           >
             <Globe className="w-5 h-5 mr-1" />
-            {t === 'en' ? 'ro' : 'en'}
+            {language === 'en' ? 'ro' : 'en'}
           </button>
         </nav>
         <button
