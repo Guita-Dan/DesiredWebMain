@@ -2,8 +2,9 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import { LangProps } from './types'
 
-const Team = ({t}) => {
+const Team = ({t}:LangProps) => {
 
   const teamMembers = [
     {

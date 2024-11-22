@@ -2,8 +2,9 @@
 
 import { motion } from 'framer-motion'
 import { FaDesktop, FaShoppingCart, FaMobileAlt, FaRocket } from 'react-icons/fa'
+import { LangProps } from './types'
 
-const Services = ({t}) => {
+const Services = ({t}:LangProps) => {
 
   const services = [
     {
