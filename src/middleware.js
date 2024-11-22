@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-import { getLocale, locales } from "./get-locale";
+import { locales } from "./get-locale";
 
 // Get the preferred locale, similar to the above or using a library
 
